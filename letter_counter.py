@@ -14,7 +14,7 @@ def main():
     lettersToCount = input("Enter the letters to count in the phrase (e.g., 'aeiou'): ").lower()
     inputPhrase = getInputPhrase()
 
-    totalOccurrencesOfLettersToCount = getTotalOccurrencesOfLettersToCount( phrase, lettersToCount )
+    totalOccurrencesOfLettersToCount = getTotalOccurrencesOfLettersToCount( inputPhrase, lettersToCount )
 
     print("Total occurences of '{}' in your phrase: {}".format( lettersToCount, totalOccurrencesOfLettersToCount))
 
